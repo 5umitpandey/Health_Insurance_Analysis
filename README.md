@@ -1,11 +1,5 @@
 # Heatlh Insurance Analysis
 
-Collorated work with Jin Choi, Shih-Lun Huang, Wei-Han Hsu
-
-Click [HERE](https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction) to get the data source
-
-Click [HERE](https://github.com/choijin/Health_Insurance_Analysis/blob/main/src/DSGA1001_IDS_Capstone.ipynb) to see the full and detailed script
-
 ## Project Overview
 * Conduct power analysis and hypothesis testing to identify any relationship between the premium price and age, surgery history, existence of diabetes, and chronic disease history. 
 * Compare LASSO regression, Ridge regression, and Elastic net regression to identify the regularized regression model that will perform the best to predict the premium price for the health insurance data.
@@ -106,3 +100,6 @@ From the scatter plot obtained by the KMeans clustering, we see that there exist
 * Clustering result shows that there exists two potential groups regarding the status of diabetes, however, the classification model does not perform well on determining diabetes patients.
 
 During the analysis, there were few assumptions that were made which could potentially affect the outcome of our analysis. First, we made the assumption that the relationship between the features and the independent variable is linear, but it is very possible that the relationship is non-linear (i.e. polynomial). Also, we made the assumption that the data retrieved for this project had no biased sampling. Particularly, we assumed that there were no other confounding variables which could have impacted the result. Finally, our assumption that these premium prices are of the same insurance plan draws significant limitations to our prediction as different insurance plans offer various coverages, hence, a distinct underlying pricing model for each plan. To mitigate some of the assumptions, we could gather data using stratified sampling, where we create multiple categories or subgroups in which the confounding variables do not vary much, and survey the patients. 
+
+
+Thanks to work of Jin Choi, Shih-Lun Huang & Wei-Han Hsu.
