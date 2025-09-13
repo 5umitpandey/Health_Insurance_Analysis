@@ -1,4 +1,4 @@
-# Heatlh Insurance Analysis
+# Health Insurance Premium Prediction & Risk Analysis
 
 ## Project Overview
 * Conduct power analysis and hypothesis testing to identify any relationship between the premium price and age, surgery history, existence of diabetes, and chronic disease history. 
